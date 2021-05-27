@@ -1,0 +1,9 @@
+locale_route:
+    path: /{_locale}/
+    defaults: { _controller: AppBundle:Default:index}
+    requirements:
+        _locale: en|fr
+
+welcome_route:
+    path: /
+    defaults: { _controller: AppBundle:Default:index}
